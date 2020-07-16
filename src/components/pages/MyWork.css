@@ -1,0 +1,45 @@
+h1 {
+    color: white;
+}
+h5 {
+    color: red;
+}
+.card {
+    background-color: rgba(255, 255, 255, 0.24);
+    border-radius: 2vw;
+    max-width: 500px;
+}
+.card:hover {
+    background-color: rgba(255, 255, 255, 0.295);
+    transition-duration: 0.5s;
+    border: 1px solid red;
+}
+.card img {
+    border-radius: 2vw 2vw 0 0;
+}
+.btn {
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+    display: block;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.199);
+    width: fit-content;
+}
+
+.btn:hover {
+    color: rgb(255, 0, 0);
+    background-color: rgba(255, 255, 255, 0.747);
+    text-decoration: none;
+    border: 1px solid red;
+}
+
+.card-title {
+    font-size: 2vw;
+}
+.card-text {
+    font-weight: bold;
+}
+
+.container {
+    min-width: 70vw;
+}
